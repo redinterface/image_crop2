@@ -65,7 +65,7 @@ class CropCanvas extends StatefulWidget {
 }
 
 class _CropCanvasState extends State<CropCanvas>
-    with TickerProviderStateMixin, Drag {
+    with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
